@@ -9,6 +9,7 @@ document.addEventListener('click', () => {
                 const type = new UIEvent('input', {bubbles: true, cancelable: true, view: window});
                 const enter = new KeyboardEvent('keydown', {keyCode: 13, bubbles: true, view: window});
                 var [message, count] = msgBox.innerHTML.split(/#(\d+)#$/);
+                msgBox.innerHTML = '';
                 count = parseInt(count);
                 while(count--) {
                     msgBox.innerHTML = message;
