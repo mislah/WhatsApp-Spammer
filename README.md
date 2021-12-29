@@ -16,3 +16,7 @@ The user can directly use this tool from the chat once the code is injected to t
 
 ## Warning
 - WhatsApp may ban your account temporarily if you spam way too much, especially if you send over 10k messages a day
+
+## Tips
+- Send messages in chunks smaller than 500 messages in a go to avoid browser from hanging.
+- For effiecient spamming, Logon to pc using Multi-device beta feature on WhatsApp and turn off the internet on other connected devices 
