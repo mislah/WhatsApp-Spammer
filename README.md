@@ -1,5 +1,5 @@
 # WhatsApp-Spammer
-A simple JavaScript snippet to spam a WhatsApp chat with a message repeating a fixed number of times. It requires the user to login to WhatsApp web on a computer on any modern browsers.
+A simple JavaScript snippet to spam a WhatsApp chat with a message repeating a given number of times. It requires the user to login to WhatsApp web on a computer on any modern browsers.
 The user can directly use this tool from the chat once the code is injected to the console.
 
 ## How to use
@@ -7,6 +7,7 @@ The user can directly use this tool from the chat once the code is injected to t
 - Inject (paste) the code to browser's console (Find console in developer tools section of the browser's menu)
 - Close the console and open a chat
 - Type the message with #n# **at the end** to repeat the message n times (n should be a postive integer)
+- Press Enter Key (Clicking the send button doesn't work)
 
 ## Examples
 - `Hi there!#5#` sends `Hi there!` five times <br/>
